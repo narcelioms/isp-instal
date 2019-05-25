@@ -1,0 +1,41 @@
+# cofiguracão
+git config --global user.name "narcelioms"
+git config --global user.email narcelio3@gmail.com
+
+git init
+git status
+git add install.sh.
+
+
+# adicionar git remote
+git remote add origin https://github.com/narcelioms/isp-instal.git
+
+teste git remote
+git remote
+
+
+# cicronizar anbiente local com git
+git pull origin master
+
+git commit -m "projeto ok"
+git push origin master
+
+
+
+wget https://github.com/narcelioms/isp-instal/archive/master.zip
+
+apt-get install unzip
+unzip master.zip
+
+cd isp-instal-master/
+
+chmod 755 install.sh
+./install.sh
+
+
+
+
+
+
+
+
