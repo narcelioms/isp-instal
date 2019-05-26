@@ -17,6 +17,8 @@ git remote
 # cicronizar anbiente local com git
 git pull origin master
 
+# para adiciona um projeto ou auterar
+git add install.sh
 git commit -m "projeto ok"
 git push origin master
 
