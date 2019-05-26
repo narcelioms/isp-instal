@@ -2,9 +2,11 @@
 git config --global user.name "narcelioms"
 git config --global user.email narcelio3@gmail.com
 
+cd \Users\win10\repositoriogit
+
 git init
 git status
-git add install.sh.
+git add arquivo.sh.
 
 
 # adicionar git remote
@@ -18,15 +20,16 @@ git remote
 git pull origin master
 
 # para adiciona um projeto ou auterar
-git add install.sh
+git add arquivo.sh
 git commit -m "projeto ok"
 git push origin master
 
 
+apt-get install git
+git clone https://github.com/narcelioms/isp-instal.git
 
 
 wget https://github.com/narcelioms/isp-instal/archive/master.zip
-
 apt-get install unzip
 unzip master.zip
 
@@ -35,7 +38,7 @@ cd isp-instal-master/
 chmod 755 install.sh
 ./install.sh
 
-cd \Users\win10\repositoriogit
+
 
 
 
