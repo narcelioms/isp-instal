@@ -22,6 +22,7 @@ git push origin master
 
 
 
+
 wget https://github.com/narcelioms/isp-instal/archive/master.zip
 
 apt-get install unzip
@@ -31,6 +32,9 @@ cd isp-instal-master/
 
 chmod 755 install.sh
 ./install.sh
+
+cd \Users\win10\repositoriogit
+
 
 
 
